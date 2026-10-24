@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>2 Action BUTTON</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <a href="https://in.pinterest.com/pin/940900547144140684/"
+    target="_blank">
+    <button OnClick="doSomething(); anotherAction();" style="font-size:25px; background-color:grey; color: lightblue; border-radius:25px; ">CLICK ME</button>
+    </a>
+          <p id="greeting">Hello</p>
+          
+    <!--JAVA SCRIPT-->
+
+
+    <script>
+       function doSomething(){
+               document.getElementById("greeting").innerHTML = "GoodBye";
+       }
+       function anotherAction() {
+        // Add your second action here (e.g., console.log, alert, etc.)
+        console.log("Second action triggered!");
+    }
+    </script>
+</body>
+</html>
