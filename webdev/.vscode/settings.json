@@ -1,3 +1,5 @@
 {
-    "gitdoc.enabled": true
+    "gitdoc.enabled": true,
+    "editor.defaultColorDecorators": "always",
+    "editor.colorDecoratorsLimit": 1000
 }
