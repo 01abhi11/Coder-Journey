@@ -1,5 +1,14 @@
 {
     "gitdoc.enabled": true,
     "editor.defaultColorDecorators": "always",
-    "editor.colorDecoratorsLimit": 1000
+    "editor.colorDecoratorsLimit": 1000,
+    "colorize.colorized_colors": [
+        
+        "BROWSERS_COLORS",
+        "HEXA",
+        "RGB",
+        "HSL",
+        "OKLAB",
+        "OKLCH"
+    ]
 }
