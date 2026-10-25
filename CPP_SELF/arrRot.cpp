@@ -2,7 +2,7 @@
 
 Initial Solution:*/
 
-class Solution {
+/*class Solution {
 public:
     void rotate(vector<int>& nums, int k) {
         int n = nums.size();
@@ -17,5 +17,7 @@ public:
 };
 //T&S: O(n)
 //Deviation: MAX COMPLEXITY
+
+
 
 
