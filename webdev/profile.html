@@ -13,12 +13,27 @@
         <input type="text" id="mother_name" required> <br>
 
        <label for="marital_status">marital_status: </label>
-            <select id="marital_status">
-                <option value="Single">Single</option>
-                <option value ="Married">Married</option>
-                            <br>
+<select id="marital_status" onchange="toggleSpouseField()">
+    <option value="Single">Single</option>
+    <option value="Married">Married</option>
+</select><br>
 
-                            
+<div id="spouse_container" style="display: none;">
+    <label for="spouse_name">spouse_name: </label>
+    <input type="text" id="spouse_name"><br>
+</div>
+
+<script>
+function toggleSpouseField() {
+    const status = document.getElementById("marital_status").value;
+    const spouseContainer = document.getElementById("spouse_container");
+    spouseContainer.style.display = status === "Married" ? "block" : "none";
+}
+</script>
+
+
+
+
 
 
 
