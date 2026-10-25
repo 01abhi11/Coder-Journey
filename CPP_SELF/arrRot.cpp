@@ -15,3 +15,7 @@ public:
         nums = temp;
     }
 };
+//T&S: O(n)
+//Deviation: MAX COMPLEXITY
+
+
