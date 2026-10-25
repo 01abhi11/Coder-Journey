@@ -17,4 +17,9 @@ public:
     }
 };
 
+/*Logic: One pointer to track where is NonZeroElement
+i from 0 to n-1 iteration(i+1 will exceed)
+if i not equals 0 then swap with pointer then pointer ++
+all element before pointer will be nonzero in relative order
+
 
