@@ -18,8 +18,12 @@ public:
 };
 
 /*Logic: One pointer to track where is NonZeroElement
+2nd for tracking i
 i from 0 to n-1 iteration(i+1 will exceed)
 if i not equals 0 then swap with pointer then pointer ++
-all element before pointer will be nonzero in relative order
+all element before pointer will be nonzero in relative order*/
+
+//Time Com is O(N) [N is num.size]
+//Space Com is O(1) [IN place]
 
 
