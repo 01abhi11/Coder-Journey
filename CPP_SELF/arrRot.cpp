@@ -34,7 +34,10 @@ public:
     }
 };
 
-//Logic: Reverse complete array then 
+//Logic: Reverse complete array then Reverse 0 to K-1 then n-k elements
+//Time Complex: O(2n)=O(n)
+//Space Complex: O(1)-Done in one place
+
 
 
 
