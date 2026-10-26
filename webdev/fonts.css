@@ -1,4 +1,7 @@
-@
+@font-face{
+    src: url(fonts/PlaywriteITTrad-VariableFont_wght.ttf);
+    font-family: PlaywriteITTrad-VariableFont_wght;
+}
 h1{
     font-family: verdana,arial;
 }
@@ -14,5 +17,5 @@ h1{
     font-family: "Google Sans Flex";
 }
 #p4{
-    font-family: "";
+    font-family: "PlaywriteITTrad-VariableFont_wght";
 }
