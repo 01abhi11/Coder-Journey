@@ -8,3 +8,7 @@ h1{
     font-size: 1.9em;
     font-weight: bold;
 }
+/*GOOGLE FONT 1 IN HEAD OF HTML THEN FAMILY*/
+#p3{
+    font-family: "Google Sans Flex";
+}
