@@ -2,9 +2,12 @@ h1{
     border-style: solid;
     border-width: 3px;
     border-color: black;
+    border-radius: 10px;
 }
 h2{
-    border-style:dashed;
+    border: 10px dashed black;
+   border-radius: 10px;
+
 }
 h3{
     border-style:dotted;
