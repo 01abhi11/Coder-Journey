@@ -3,5 +3,6 @@
 
 #img1{
     float: left; /*text on right img on left*/
+    margin-right: 10px;
     
 }
