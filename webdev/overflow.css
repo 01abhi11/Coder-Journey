@@ -2,11 +2,11 @@
 
 with respect to box
 
-overflow: visible
-overflow: hidden
-overflow: clip
-overflow: scroll
-overflow: auto
+overflow: visible - shows xtra parts too
+overflow: hidden - hide the out of box parts
+overflow: clip - used with overflow-clip-margin
+overflow: scroll - got scroll bar in box
+overflow: auto - 
 */
 
 div{
