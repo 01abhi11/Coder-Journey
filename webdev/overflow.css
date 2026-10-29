@@ -1,5 +1,7 @@
 /*Overflow= property that sets the desired behaviour when content does not fit in the parent element box(overflow)
 
+with respect to box
+
 overflow: visible
 overflow: hidden
 overflow: clip
@@ -9,5 +11,6 @@ overflow: auto
 
 div{
     border: 2px solid;
-    height: 
+    height: 75px;
+    overflow: visible;
 }
