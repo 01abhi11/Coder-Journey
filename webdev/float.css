@@ -1,6 +1,9 @@
 /* Float= Allows other elements to flow around it*/
 /* # is for id*/
-
+body{
+    border: 3px solid;
+    display: flow-root;
+}
 #img1{
     float: left; /*text on right img on left*/
     margin-right: 10px;
