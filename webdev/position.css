@@ -12,5 +12,6 @@ Position:
         height: 200px;
         background-color: cyan;
         position: relative;
-        
+        top: 100px; /* move downwards relative to height*/
+        left: 100px; /*pushed to right*/
 }
