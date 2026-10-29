@@ -4,5 +4,9 @@
 #img1{
     float: left; /*text on right img on left*/
     margin-right: 10px;
-    
+}
+
+#img2{
+    float: right; /*img on right txt on left*/
+    margin-left: 10px;
 }
