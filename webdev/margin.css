@@ -1,3 +1,27 @@
 body{
     margin: 0px; /*MARGINS= Space around an element*/
 }
+
+/* use . for class i.e, .class*/
+.box{
+    border: 5px solid;
+    font-size: 5em;
+    width: 250px;
+    height: 200px;
+}
+#box1{
+    background-color: pink red;
+    /*marginal direction*/
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-left: 25px;
+    margin-right: 20px;
+    margin: auto; /*centre*/
+
+}
+#box2{
+    background-color: blue;
+    margin: 50px;
+    margin-left: auto; /*will stick to right */
+
+}
