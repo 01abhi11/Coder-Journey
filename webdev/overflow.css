@@ -1,1 +1,9 @@
-/*Overflow= property that sets the desired behaviour when*/
+/*Overflow= property that sets the desired behaviour when content does not fit in the parent element box(overflow)
+
+overflow: visible
+overflow: hidden
+overflow: clip
+overflow: scroll
+overflow: auto
+*/
+
