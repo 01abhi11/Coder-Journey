@@ -34,4 +34,9 @@ h9{
 
 p{
     border-bottom: 3px solid red;
+    border-top: 2px dotted yellow;
+    border-left: 4px dashed blue;
+    border-right: 2px groove orange;
+
+    border-radius: 5px;
 }
