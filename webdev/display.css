@@ -7,3 +7,10 @@ block-level= start on a new line, take up the full width available
 inline= do not start on a new line, width is limited to what is needed
 (span, a, img)
 */
+
+div{
+    background-color: orange;
+}
+span{
+    background-color: purple;
+}
