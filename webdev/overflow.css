@@ -6,7 +6,7 @@ overflow: visible - shows xtra parts too
 overflow: hidden - hide the out of box parts
 overflow: clip - used with overflow-clip-margin
 overflow: scroll - got scroll bar in box
-overflow: auto - 
+overflow: auto - scroll bar when needed
 */
 
 div{
