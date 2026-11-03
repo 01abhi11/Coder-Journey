@@ -1,3 +1,8 @@
 body{
     background-image: url(images/background.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    /*back ground attachment tells fixed or scroll with tab/page */
+    background-attachment: fixed;
+    background-size: cover;
 }
