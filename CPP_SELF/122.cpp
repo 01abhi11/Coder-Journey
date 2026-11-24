@@ -1,11 +1,11 @@
-//First Thought: Buy on less Sell on high for max profit
+//First Thought: Buy on less Sell on high for max profit unlimited transactions
 
 //Initial Solution:
 class Solution {
 public:
     int maxProfit(vector<int>& prices) {
         int min_price = INT_MAX;
-        int max_profit = 0;
+        int total_profit = 0;
 
         for (int price : prices) {
             if (price < min_price) {
