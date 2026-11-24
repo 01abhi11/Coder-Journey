@@ -1,4 +1,4 @@
-//First Thought:
+//First Thought: 
 
 //Initial Solution:
 
@@ -12,4 +12,4 @@
 
 //Pattern: Array Greedy
 
-//Learning: 
+//Learning:
