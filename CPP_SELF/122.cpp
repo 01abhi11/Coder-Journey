@@ -13,6 +13,7 @@ public:
             } else if (price - min_price > max_profit) {
                 max_profit = price - min_price;
             }
+            while()
         }
 
         return max_profit;
