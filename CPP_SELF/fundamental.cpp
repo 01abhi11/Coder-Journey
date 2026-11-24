@@ -6,4 +6,4 @@
 //Hardwares and Softwares
 //CPU(brain) RAM(table) Storage(shelf)
 
-//Programs Bugs Debugging
+//Programs(ordered instructions) Bugs(unexpected behaviour/system defect) Debugging(systematic repair of bug)
