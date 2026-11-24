@@ -1,0 +1,6 @@
+//DSA is lang independent
+//DSA is about concept practice pattern
+
+//Programming is ordered instructions
+//Computer is machine that follows such instructions
+//Hardwares and Softwares
