@@ -4,3 +4,6 @@
 //Programming is ordered instructions
 //Computer is machine that follows such instructions
 //Hardwares and Softwares
+//CPU(brain) RAM(table) Storage(shelf)
+
+//Programs Bugs Debugging
