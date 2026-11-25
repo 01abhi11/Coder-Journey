@@ -9,3 +9,5 @@
 //Programs(ordered instructions) Bugs(unexpected behaviour/system defect) Debugging(systematic repair of bug)
 
 //Humans to ProgLangs to Compiler to LowerLevel to Computer Executions
+
+//Programming is about handling the edge cases
