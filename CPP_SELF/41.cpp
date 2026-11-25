@@ -14,6 +14,9 @@ public:
 //Better/Optimal Solutions:
 
 //PseudoCode or Logic: Cyclic sort(index as hash key)
+//x in x-1 index(x is num[i])
+//loop i: 0 to n-1
+//
 
 //Complexity Analysis: time: O(n), Space: O(1)
 
