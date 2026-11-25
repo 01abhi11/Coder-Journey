@@ -11,3 +11,5 @@
 //Humans to ProgLangs to Compiler to LowerLevel to Computer Executions
 
 //Programming is about handling the edge cases
+//One visible action can trigger many cooperating programs, devices and networks.
+//Each flow Still depends on precise state, decisions and ordering.
