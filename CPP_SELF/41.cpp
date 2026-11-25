@@ -4,7 +4,7 @@
 class Solution {
 public:
     int firstMissingPositive(vector<int>& nums) {
-                                    
+
 
     }
 };
@@ -13,9 +13,9 @@ public:
 
 //Better/Optimal Solutions:
 
-//PseudoCode or Logic:
+//PseudoCode or Logic: Cyclic sort(index as hash key)
 
-//Complexity Analysis:
+//Complexity Analysis: time: O(n), Space: O(1)
 
 //Pattern: Array HashTable
 
