@@ -1,6 +1,13 @@
-//First Thought:
+//First Thought: Have to find out the absent smallest positive to given array
 
 //Initial Solution:
+class Solution {
+public:
+    int firstMissingPositive(vector<int>& nums) {
+
+
+    }
+};
 
 //Limitations:
 
@@ -10,6 +17,6 @@
 
 //Complexity Analysis:
 
-//Pattern:
+//Pattern: Array HashTable
 
 //Learning:
