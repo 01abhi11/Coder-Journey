@@ -2,6 +2,7 @@
 
 //Theory: 
 
+
 //Initial Solution:
 
 //Limitations:
@@ -12,6 +13,6 @@
 
 //Complexity Analysis:
 
-//Pattern:
+//Pattern: Two Pointers, String
 
 //Learning:
