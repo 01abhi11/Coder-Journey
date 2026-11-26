@@ -21,6 +21,19 @@ public:
 //Limitations: O(n)time, O(n)space
 
 //Better/Optimal Solutions:
+class Solution {
+public:
+    void reverseString(vector<char>& s) {
+
+
+
+        for (int i = 0; i <= s.size(); i++) {
+            temp[i] = s[n - 1 - i];
+        }
+
+        s = temp;
+    }
+};
 
 //PseudoCode or Logic:
 
