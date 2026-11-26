@@ -1,5 +1,7 @@
 //First Thought:
 
+//Theory: 
+
 //Initial Solution:
 
 //Limitations:
