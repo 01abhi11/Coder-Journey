@@ -11,7 +11,7 @@ public:
 
 //Limitations: O(n^2)time, O(n)space
 
-//Better/Optimal Solutions:
+//Better Solution: O(n)time , O(n)space
 class Solution {
 public:
     vector<int> runningSum(vector<int>& nums) {
@@ -21,6 +21,15 @@ public:
                 ans[i] = ans[i-1] + nums[i];
 }
             return ans;
+    }
+};
+
+//Optimal Solution: O(n)time, O(1)space
+class Solution {
+public:
+    vector<int> runningSum(vector<int>& nums) {
+             
+
     }
 };
 
