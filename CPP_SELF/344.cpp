@@ -24,9 +24,9 @@ public:
 class Solution {
 public:
     void reverseString(vector<char>& s) {
-            
-        for (int i = 0; i <= s.size(); i++) {
-            [i] = s[n - 1 - i];
+
+        for (int i = 0; i <= s.size() - 1; i++) {
+           
         }
 
         return s;
