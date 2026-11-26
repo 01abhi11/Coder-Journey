@@ -24,14 +24,12 @@ public:
 class Solution {
 public:
     void reverseString(vector<char>& s) {
-
-
-
+            
         for (int i = 0; i <= s.size(); i++) {
-            temp[i] = s[n - 1 - i];
+            [i] = s[n - 1 - i];
         }
 
-        s = temp;
+        return s;
     }
 };
 
