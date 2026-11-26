@@ -1,6 +1,12 @@
-//First Thought: add consecutive elements of array
+//First Thought: add consecutive elements of array and give output in array
 
 //Initial Solution:
+class Solution {
+public:
+    vector<int> runningSum(vector<int>& nums) {
+               
+    }
+};
 
 //Limitations:
 
