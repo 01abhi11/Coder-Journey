@@ -1,4 +1,6 @@
-//First Thought:
+//First Thought: give output in array form of reversed order char as given in input
+
+//Theory: 
 
 //Initial Solution:
 
