@@ -1,6 +1,10 @@
 //First Thought: give output in array form of reversed order char as given in input
 
-//Theory:
+//Theory
+// 1. Pass-by-Reference : Understanding that `&` passes the original vector rather than a copy, allowing direct in-place updates without returning a new vector (`void` return type).
+// 2. 0-Based Array Indexing & Mirror Symmetry: Knowing that an array of size `n` spans indices `0` to `n - 1`, and reversing maps index `i` to its symmetric counterpart `n - 1 - i`.
+// 3. Converging Two Pointers: Placing one pointer at the start (`l = 0`) and one at the end (`r = n - 1`), moving inward (`l++`, `r--`) while `l < r` (stops at the middle for odd lengths and crosses for even lengths).
+// 4. In-Place Element Swapping: Using `swap(s[l], s[r])` (or a single `char temp` variable) to exchange values in O(1) extra memory instead of allocating an auxiliary vector.
 
 
 //Initial Solution:
