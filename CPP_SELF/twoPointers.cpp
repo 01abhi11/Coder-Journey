@@ -1,7 +1,7 @@
 /*The Two-Pointers Technique is a simple yet powerful strategy
 where you use two indices (pointers) that traverse a data structure -
 such as an array, list, or string - either toward each other or
- in the same direction to solve problems more efficiently*/
+in the same direction to solve problems more efficiently*/
 
 /*When to use Two Pointers:
 Sorted Input : If the array or list is already sorted (or can be sorted), two pointers can efficiently find pairs or ranges. Example: Find two numbers in a sorted array that add up to a target.
