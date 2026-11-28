@@ -4,6 +4,10 @@
 //alpha-numeric - A-Z,a-z,0-9, dont count even space
 //A phrase is a palindrome if, after converting all uppercase letters into lowercase letters and removing all non-alphanumeric characters, it reads the same forward and backward.
 //isalnum(c) is a built-in C++ standard library function (from <cctype>) that checks whether a character c is alphanumeric—meaning either a letter ('A'–'Z', 'a'–'z') or a digit ('0'–'9').
+/*Return Value
+Non-zero (true in if/while checks): If c is an uppercase letter, lowercase letter, or digit (0–9).
+
+0 (false): If c is a space, punctuation mark, or symbol (like ' ', ',', ':', '@', '!').*/
 //(Also, if you pass unsigned char like isalnum((unsigned char)s[l]) and tolower((unsigned char)s[l]), it avoids undefined behavior if any non-ASCII negative char ever appears, though standard LeetCode 125 inputs are printable ASCII.)
 
 //Initial Solution:
