@@ -6,7 +6,7 @@
 class Solution {
 public:
     bool validPalindrome(string s) {
-         string s = "";
+         string str = "";
          for char (c : s){
             if(c = s)
          }
