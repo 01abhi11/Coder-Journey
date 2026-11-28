@@ -6,7 +6,10 @@
 class Solution {
 public:
     bool validPalindrome(string s) {
-
+         string s = "";
+         for char (c : s){
+            if(c = s)
+         }
     }
 };
 
@@ -15,6 +18,7 @@ public:
 //Better/Optimal Solutions:
 
 //PseudoCode or Logic:
+
 
 //Complexity Analysis:
 
