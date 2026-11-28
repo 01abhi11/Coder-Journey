@@ -3,6 +3,7 @@
 //Theory: two pointers, string, ignoring the cases
 //alpha-numeric - A-Z,a-z,0-9, dont count even space
 //A phrase is a palindrome if, after converting all uppercase letters into lowercase letters and removing all non-alphanumeric characters, it reads the same forward and backward.
+//isalnum(c) is a built-in C++ standard library function (from <cctype>) that checks whether a character c is alphanumeric—meaning either a letter ('A'–'Z', 'a'–'z') or a digit ('0'–'9').
 
 //Initial Solution:
 class Solution {
