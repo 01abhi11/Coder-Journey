@@ -61,9 +61,21 @@ public:
 };
 
 //PseudoCode or Logic:
+// 1. Initialize two pointers: `l = 0` (start of `s`) and `r = s.size() - 1` (end of `s`).
+// 2. While `l < r`:
+//    - Advance `l++` while `l < r` and `s[l]` is not alphanumeric (`!isalnum`).
+//    - Decrement `r--` while `l < r` and `s[r]` is not alphanumeric (`!isalnum`).
+//    - Compare `tolower(s[l])` and `tolower(s[r])`; if unequal, immediately return `false`.
+//    - Move both pointers inward: `l++`, `r--`.
+// 3. Return `true` after the loop finishes without mismatches.
 
 //Complexity Analysis:
+//- Time Complexity: O(n), where n is the length of `s` (each pointer moves inward across the string at most once).
+// - Space Complexity: O(1) auxiliary space (no extra string or array allocated).
 
-//Pattern: two pointers
+//Pattern: Two Pointers (Converging / Opposite Ends), String
 
 //Learning:
+// 1. Guarding Inner Loops with `l < r`: Always include `l < r` inside the inner skipping `while` loops so strings containing only symbols/spaces (e.g., ".,") do not push pointers out of bounds.
+// 2. Early Exit on Mismatch vs. Full Scan for Match: Return `false` immediately on the first character mismatch, but only return `true` after all symmetric pairs have been checked.
+// 3. Safe `<cctype>` Casting: Casting characters to `(unsigned char)` before passing to `isalnum()` and `tolower()` prevents undefined behavior on signed `char` values.
