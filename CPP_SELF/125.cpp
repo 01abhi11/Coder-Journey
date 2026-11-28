@@ -13,8 +13,20 @@ public:
 
         while(l<r){
 
+            while(l < r && !isalnum(s[l])) {
+                l++;
+
             }
+            while ( l < r && !isalnum(s[r])) {
+                r--;
+            }
+            if (tolower(s[l]) != tolower(s[l])){
+                return false;
+            }
+            l++;
+            r--;
         }
+        return true;
     }
 };
 
